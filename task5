@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    char ch;
+    printf("Введіть символ: ");
+    scanf(" %c", &ch);  
+
+    char next = ch + 1;
+    printf("Наступний символ: %c (ASCII: %d)\n", next, next);
+    return 0;
+}
