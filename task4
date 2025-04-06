@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int i;
+    float f, sum;
+
+    printf("Введіть ціле число: ");
+    scanf("%d", &i);
+
+    printf("Введіть дробове число: ");
+    scanf("%f", &f);
+
+    sum = i + f;
+    printf("Сума: %.2f\n", sum);
+    return 0;
+}
